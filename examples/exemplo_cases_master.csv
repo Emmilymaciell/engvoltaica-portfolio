@@ -1,0 +1,4 @@
+﻿case_id,nome_publico,nome_interno,cidade,estado,tipo,status,potencia_kwp,modulos,geracao,economia,investimento,dados_financeiros,posts_relacionados,arquivos_instagram,arquivos_onedrive,publishability,verification_status,portfolio_priority,notes
+CASE_001,Atacarejo Cliente A,,Cidade Exemplo,UF,Usina comercial em telhado,Concluída,100.00,200,10.000 kWh/mês,"R$ 100.000,00",,"Economia anual R$ 100.000,00 (fictício)",,,,PUBLICO_IG,CONFIRMADO_IG,,Linha fictícia de exemplo
+CASE_002,Usina Residencial 20 módulos,,Cidade Exemplo,UF,Residencial,Concluída,10.00,20,1.200 kWh/mês,"R$ 10.000,00",,,,,,GENERICO_SEM_NOME,PARCIALMENTE_CONFIRMADO,,Linha fictícia de exemplo
+CASE_003,Usina de Investimento Exemplo,,,,Usina de solo / investimento,Concluída,,,,,,,,,,INTERNO,PENDENTE,,Linha fictícia de exemplo

@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git ls-files:*)",
+      "Read(//c/caminho/exemplo/PastaCorporativa/OneDrive/**)",
+      "Read(//c/caminho/exemplo/Desktop/Portfolio Engvoltaica/**)"
+    ],
+    "deny": [
+      "Write(//c/caminho/exemplo/PastaCorporativa/OneDrive/**)",
+      "Edit(//c/caminho/exemplo/PastaCorporativa/OneDrive/**)",
+      "Write(//c/caminho/exemplo/Desktop/Portfolio Engvoltaica/**)",
+      "Edit(//c/caminho/exemplo/Desktop/Portfolio Engvoltaica/**)",
+      "Write(./data/raw/**)",
+      "Edit(./data/raw/**)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Bash(git rebase:*)",
+      "Read(./.venv/**)"
+    ]
+  },
+  "_comment": {
+    "deny_onedrive": "DEC-002 — o OneDrive corporativo é somente leitura.",
+    "deny_v1": "DEC-011 — a baseline V1 é preservada como referência.",
+    "deny_raw": "DEC-003 — data/raw/ é imutável; derivados vão para derivados/.",
+    "deny_git_write": "A usuária autoriza cada commit. Sem commit automático.",
+    "deny_venv": "Evita gastar contexto lendo dependências instaladas."
+  }
+}

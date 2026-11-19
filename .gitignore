@@ -1,0 +1,70 @@
+# ─── Segredos e sessões (NUNCA versionar) ────────────────────────────────
+*cookie*
+*cookies*
+*.cookies
+credentials*
+*credential*
+secrets*
+*.session
+*session*.json
+*.token
+*token*
+.env
+.env.*
+browser_profile/
+chrome_profile/
+
+# ─── Ambiente Python ─────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ─── Temporários e cache ─────────────────────────────────────────────────
+tmp/
+.cache/
+*.tmp
+*.part
+*.partial
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ─── Mídia bruta (ver docs/DECISIONS.md · DEC-008) ───────────────────────
+# O RAW do Instagram e as cópias do OneDrive podem chegar a vários GB.
+# Ficam fora do Git; a rastreabilidade vem dos manifests em data/processed/
+# (caminho + sha256 + dimensões), que SÃO versionados.
+data/raw/instagram/images/
+data/raw/instagram/videos/
+data/raw/onedrive_selected/
+derivados/instagram/thumbnails/
+derivados/instagram/video_frames/
+
+# Metadados .json do gallery-dl são leves e ficam versionados de propósito:
+!data/raw/instagram/metadata/
+
+# ─── Estado do downloader (regenerável) ──────────────────────────────────
+state/gallery-dl-archive.sqlite3
+state/*.sqlite3
+
+# ─── Logs verbosos ───────────────────────────────────────────────────────
+logs/*.raw.log
+
+# Cache de testes
+.pytest_cache/
+
+# ─── Privacidade (Emmily AI Project OS, ADR-0015) ───────────────────────
+# Contatos e insumos/saidas brutos com telefone/e-mail ficam FORA do Git.
+# Originais preservados no Drive: 04 PORTFOLIO/engvoltaica-portfolio/originais-pre-sanitizacao/
+config/contato.local.json
+docs/*.local.md
+data/indexes/onedrive_index.csv
+data/input/chrome_audit/CATALOGO_INSTAGRAM_ENGVOLTAICA.md
+data/input/previous_portfolio/BRIEFING_PORTFOLIO_ENGVOLTAICA.md
+data/input/previous_portfolio/Portfolio_Engvoltaica.html
+data/input/previous_portfolio/Portfolio_Engvoltaica.pdf
+output/claude_design/
+output/portfolio/

@@ -1,0 +1,4 @@
+# Dependencias do Engvoltaica Portfolio (Python 3.12).
+# O codigo usa so a biblioteca padrao; pytest e para os testes.
+# Versao medida no Python 3.12 desta maquina em 2026-10-11 (Emmily AI Project OS, fase 8).
+pytest==9.1.1

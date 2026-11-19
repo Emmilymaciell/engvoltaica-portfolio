@@ -1,0 +1,30 @@
+# Normalização de fim de linha
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Documentos e dados textuais
+*.md   text diff=markdown
+*.csv  text
+*.yaml text
+*.yml  text
+*.json text
+*.txt  text
+*.html text
+*.py   text diff=python
+
+# Binários — nunca aplicar conversão de EOL nem tentar diff
+*.pdf  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.webp binary
+*.gif  binary
+*.mp4  binary
+*.mov  binary
+*.heic binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.sqlite3 binary
