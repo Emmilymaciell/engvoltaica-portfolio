@@ -84,6 +84,13 @@ Base: `docs/DECISIONS.md` e `STATE.md`. A divisão fina por arquivo `[a confirma
 
 Python 3.12 · gallery-dl · Pillow · imagehash · PyMuPDF · pytest · Microsoft Edge headless (PDF)
 
+## Verificação, sanitização e licença
+
+- **Testes:** `py -3.12 -m pytest tests -q -p no:cacheprovider` → **8 passed, 25 skipped** (sem `data/processed`, PDF ou mídias nesta cópia) em 19/11/2026.
+- **Dados:** valores ilustrativos e clientes anônimos (Cliente A…G); sem mídia nem dados da empresa.
+- **Sanitização:** o que foi removido, trocado ou inventado nesta cópia está em [`SANITIZACAO.md`](SANITIZACAO.md).
+- **Licença:** todos os direitos reservados; leitura permitida para avaliação de portfólio — ver [`LICENSE`](LICENSE) e [`NOTICE`](NOTICE).
+
 ## Aviso
 
 *Dados fictícios. Versão sanitizada de um sistema em uso real; identificadores de clientes foram substituídos.*
