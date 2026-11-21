@@ -54,7 +54,6 @@ nenhum número sem fonte, "outra IA não é fonte", cookies nunca no disco, sem 
 | Arquivos indexados no acervo | 31.067 |
 | Portfólio V2 | 9 páginas · 6,92 MB · QA 0 erros |
 | Testes | 28 passaram, 5 pulados |
-| Tempo economizado / impacto comercial | `[a confirmar pela autora]` |
 
 ## Como rodar
 
@@ -78,7 +77,14 @@ README de trabalho original (sanitizado): [`docs/README-original-sanitizado.md`]
 | Que cookies nunca tocam o disco (sessão lida do navegador) | Wrapper do gallery-dl incremental e retomável |
 | O que o QA deve barrar (CNPJ, percentuais antigos, link quebrado, peso para WhatsApp) | `qa_portfolio.py` e os testes |
 
-Base: `docs/DECISIONS.md` e `STATE.md`. A divisão fina por arquivo `[a confirmar pela autora]`.
+Base: `docs/DECISIONS.md` e `STATE.md`. A divisão fina por arquivo não foi registrada.
+
+## Limitações
+
+- Nesta cópia não há dados, mídias nem PDF: 25 dos 33 testes são pulados (`skipif`); só parsing, regras e segurança rodam. Os números da seção acima vêm do projeto privado.
+- Os scripts de acervo dependem de uma pasta local sincronizada (`ENGV_ONEDRIVE_DIR`); o download do Instagram usa a sessão do navegador e exige o navegador fechado.
+- A renderização do PDF exige o Microsoft Edge instalado (modo headless).
+- Documentos de apoio citados em `CLAUDE.md`/`docs/` (qualidade de dados, fontes, evidências cadastrais) não acompanham esta cópia — ver [`SANITIZACAO.md`](SANITIZACAO.md).
 
 ## Stack
 

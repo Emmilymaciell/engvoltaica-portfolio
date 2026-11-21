@@ -59,9 +59,9 @@ Engvoltaica_Portfolio/
 └── tmp/             descartável
 ```
 
-Fluxo detalhado em [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
-Regras operacionais em [`CLAUDE.md`](CLAUDE.md).
-Estado atual em [`STATE.md`](STATE.md).
+Fluxo detalhado em [`docs/ARCHITECTURE.md`](ARCHITECTURE.md).
+Regras operacionais em [`CLAUDE.md`](../CLAUDE.md).
+Estado atual em [`STATE.md`](../STATE.md).
 
 ---
 
@@ -133,11 +133,11 @@ meio não corrompe nada.
 5. **Cookies nunca tocam o disco.** Sessão lida do navegador, em memória.
 6. **Sem commit automático.** Versionar sim, commitar só quando autorizado.
 
-Detalhamento e motivo de cada uma em [`docs/DECISIONS.md`](docs/DECISIONS.md).
+Detalhamento e motivo de cada uma em [`docs/DECISIONS.md`](DECISIONS.md).
 
 ---
 
 ## Status
 
-Ver [`STATE.md`](STATE.md) — fase atual, o que está pronto, o que falta e qual
+Ver [`STATE.md`](../STATE.md) — fase atual, o que está pronto, o que falta e qual
 é a próxima tarefa.

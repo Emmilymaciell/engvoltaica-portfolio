@@ -6,6 +6,8 @@ Cópia sanitizada de um projeto em uso real. Nada aqui é dado de cliente ou de 
 
 Mídias e exports do Instagram/OneDrive, dados processados, nomes de clientes.
 
+Documentos citados em `CLAUDE.md`, `docs/DECISIONS.md`, `docs/WORKFLOW.md` e no README original que não acompanham esta cópia: `docs/evidence/`, `docs/DATA_QUALITY.md`, `docs/SOURCES.md`, `docs/CASES_MASTER.md`, `docs/FACT_CHECK.md`, `docs/INSTAGRAM_ANALYSIS.md`. As referências foram mantidas para preservar o registro das decisões.
+
 ## O que foi trocado
 
 Clientes → `Cliente A…G`; CNPJ, CREA, endereço e telefone → fictícios; números de case (placas, kWp, geração, economia) → **valores ilustrativos**; nome de cliente num caminho de foto → `Cliente F`.
